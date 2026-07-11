@@ -1461,7 +1461,7 @@ var editingUserId=null,openMemoryList=[],openMemoryIdx=0,loginSelectedUser=null,
 function getDB(){if(activeCapsuleId)return getCapsuleDB(activeCapsuleId);try{return JSON.parse(localStorage.getItem(SK)||'null');}catch(e){return null;}}
 
 // ═══ REGISTRO CENTRAL (Google Apps Script) ═══
-var APPS_SCRIPT_URL='https://script.google.com/macros/s/AKfycbxfupkUWMty8LacOvlBNfOBB4ukd56QGLmdYa9U8GdWSycwnhGKXC6I--Ko7MmCMBXB/exec';
+var APPS_SCRIPT_URL='https://script.google.com/macros/s/AKfycbxv5XaHDwV34b9U_9r0E9HgUutmPBm8G5bDJzYBNqwVzQ6fIhn8-e9n4gOYu9Twbv-u3A/exec';
 function registerCapsule(capId,childName,birth,openAge,recipientEmail){
   if(!recipientEmail)return;
   try{
